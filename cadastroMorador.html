@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Morador</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <h1 id="Nome">PortCar</h1>
+    </header>
+
+    <div class="container">
+        <div class="login-box">
+            <h2>Cadastrar Morador</h2>
+           
+                
+            <form onsubmit="cadastrarMorador(event)">
+                <div class="input-group">
+                    <label for="name">Nome</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="input-group">
+                    <label for="bloco">Bloco e apartamento</label>
+                    <input type="text" id="bloco" name="bloco" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="telefone">Telefone</label>
+                    <input type="text" id="telefone" name="telefone" required>
+                </div>
+                <h2>Cadastrar Carros</h2>
+                <div class="input-group">
+                    <label for="placa">Placa</label>
+                    <input type="text" id="placa" name="placa">
+                </div>
+                <div class="input-group">
+                    <label for="cor_modelo">Modelo e cor</label>
+                    <input type="text" id="cor_modelo" name="cor_modelo">
+                </div>
+                <div class="input-group">
+                    <label for="vaga">Vaga</label>
+                    <input type="text" id="vaga" name="vaga">
+                </div>
+            
+                <button type="submit" class="login-button">Cadastrar</button>
+            </form>
+            
+   
+
+
+        </div>
+    </div>
+    </div>
+
+
+</body>
+
+<script src="cadastroMorador.js"></script>
+
+</html>

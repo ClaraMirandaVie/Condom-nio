@@ -1,0 +1,347 @@
+*{
+    margin: 0%;
+}
+
+/* pagina inicial css */
+#body_inicial{
+    background-color: #647C90;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20%;
+    padding-right: 1%;
+    font-family: "Belleza", sans-serif;
+}
+#button-inicial{
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+.iniciar-button{
+    width: 8%;
+    border: none;
+    border-radius: 8px;
+    background-color: #FCFAF0;
+    color: #647C90;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position:absolute; 
+    /* top:46%; */
+    left:45%;
+}
+
+
+/* login css */
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 20px;
+
+    }
+    .login-box {
+        width: 100%;
+        max-width: 400px;
+    }
+   
+}
+
+/* Animações */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+h1{
+    color: #FCFAF0;
+}
+.iniciar-button{
+    transition: background-color 0.3s, transform 0.2s;
+    background-color: #FCFAF0;
+    transform: scale(1.05);
+    text-decoration: #647C90;
+}
+
+/*  Login */
+.login-box {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.login-button {
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+
+
+.show-password {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.show-password:hover {
+    transform: scale(1.2);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    padding-top: 7%;
+}
+
+
+.login-box {
+    background-color: #647C90;
+    border-radius: 15px;
+    padding: 30px;
+    width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+.login-box h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    color: #ffffff;
+    display: flex;
+    
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.show-password {
+    position: absolute;
+    right: 10px;
+    top: 38px;
+    cursor: pointer;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.options input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.login-button {
+    width: 40%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4E4F50;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #e0e0e0;
+}
+
+.register-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+.register-link a {
+    color: #ffffff;
+    font-wergb: (255, 255, 255) bold;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* cadastro css */
+
+@media (max-width: 768px) {
+    .containerCad {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .port-box {
+        width: 100%;
+        max-width: 400px;
+    }
+    /* .cabecalho {
+        flex-direction: column;
+        align-items: center;
+    } */
+}
+ 
+/* Animacoes */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+ 
+.login-box {
+    animation: fadeIn 0.5s ease-in-out;
+}
+ 
+.login-button {
+    transition: background-color 0.3s, transform 0.2s;
+}
+ 
+.login-button:hover {
+    background-color: #7ca4c5;
+    transform: scale(1.05);
+}
+ 
+.show-password {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+ 
+.show-password:hover {
+    transform: scale(1.2);
+}
+ 
+.cabecalho {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    height: 100px;
+    background-color: #647C90;
+}
+ 
+#Nome {
+    color: #FCFAF0;
+    padding-top: 0%;
+    display: flex;
+    justify-content: center;
+    padding-left: 46%;
+    font-family: "Belleza", sans-serif;
+}
+
+ 
+#Entrar {
+    margin-bottom: 10px;
+    padding: 30px;
+}
+ 
+#Entrar a {
+    color: inherit; 
+    text-decoration: none; 
+}
+
+/* TABELA MORADOR*/
+
+.body-tabela {
+    font-family: Arial, sans-serif;
+    background-color: #F9F7EC;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container-tabela {
+    width: 97%;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #4A6276;
+    font-size: 24px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Amaranth", sans-serif;
+    font-style: normal;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #5F6E7E;
+    color: white;
+}
+
+thead {
+    background-color: #5F6E7E;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #F9F7EC;
+    text-align: left;
+}
+
+tbody tr {
+    background-color: #647C90;
+}
+
+tbody tr:last-child td {
+    text-align: center;
+    font-size: 20px;
+}
+
+button {
+    background-color: #5F6E7E;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #4A6276;
+}
+
